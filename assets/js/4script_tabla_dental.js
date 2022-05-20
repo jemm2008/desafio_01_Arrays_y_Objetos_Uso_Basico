@@ -1,1 +1,1 @@
-DrawTable(Insert_Table_Here, dental)
+DrawTable("Insert_Table_Here", dental)

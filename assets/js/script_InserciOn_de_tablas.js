@@ -5,7 +5,8 @@ function DrawTable(Target_ID_Element,my_Array_of_Objects) {
     let table = CreateTable()
 table.appendChild(CreateTableHeader(my_Object_Keys))
 table.appendChild(CreateTableBody(my_Array_of_Objects))
-Target_ID_Element.appendChild(table)
+let target = document.getElementById(Target_ID_Element)
+target.appendChild(table)
 }
 
 function CreateTable() {

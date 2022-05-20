@@ -1,1 +1,1 @@
-DrawTable(Insert_Table_Here, traumatologia)
+DrawTable("Insert_Table_Here", traumatologia)
